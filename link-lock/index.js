@@ -76,13 +76,7 @@ function main() {
         // Password is incorrect.
         error("Ciahahahaha penyusuppp, Pasword Salah..!!");
 
-        // Set the "decrypt without redirect" URL appropriately
-        document.querySelector("#no-redirect").href =
-          `https://lightstarr.github.io//link-lock/decrypt/#${hash}`;
-
-        // Set the "create hidden bookmark" URL appropriately
-        document.querySelector("#hidden").href =
-         `https://lightstarr.github.io//link-lock/hidden/#${hash}`;
+      
         return;
       }
 
