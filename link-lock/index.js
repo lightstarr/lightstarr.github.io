@@ -74,10 +74,8 @@ function main() {
         url = await api.decrypt(encrypted, password, salt, iv);
       } catch {
         // Password is incorrect.
-        error("Ciahahahaha penyusuppp, Pasword Salah..!!");
-
-      
-        return;
+        error("Ciahahahaha penyusuppp, Pasword Salah..!!")
+              return;
       }
 
       try {
