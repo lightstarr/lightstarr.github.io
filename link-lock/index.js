@@ -55,7 +55,8 @@ function main() {
     let hint, password;
     if ("h" in params) {
       hint = params["h"];
-      document.querySelector("#hint").innerText = "Petunjuk Bang : " + hint;
+      document.querySelector("#hint").innerText = "Ini Petunjuk Bang :
+        " + hint;
     }
 
     const unlockButton = document.querySelector("#unlockbutton");
